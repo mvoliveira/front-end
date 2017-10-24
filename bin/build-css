@@ -1,1 +1,2 @@
 node-sass --include-path scss scss/main.scss public/css/main.css
+node-sass --include-path scss scss/container.scss public/css/container.css
