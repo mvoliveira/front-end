@@ -1,2 +1,4 @@
 node-sass --include-path scss scss/main.scss public/css/main.css
 node-sass --include-path scss scss/container.scss public/css/container.css
+node-sass --include-path scss scss/header.scss public/css/header.css
+node-sass --include-path scss scss/search.scss public/css/search.css
