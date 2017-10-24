@@ -1,6 +1,7 @@
 .container {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: red;
   min-height: 100vh;
   min-width: 100vw;
@@ -8,7 +9,8 @@
   max-height: 100%; }
 
 .container-with-content {
+  display: flex;
+  justify-content: space-around;
   background-color: orange;
-  justify-content: space-between;
   max-width: 60%;
   min-width: 60%; }
