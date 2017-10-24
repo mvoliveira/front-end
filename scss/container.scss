@@ -12,8 +12,20 @@
 
 .container-with-content{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: orange;
   max-width: 60%;
   min-width: 60%;
+}
+
+.container-products{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 60%;
+    background-color: blue;
+    .products{
+      display: flex;
+      flex-direction: row;
+    }
 }
