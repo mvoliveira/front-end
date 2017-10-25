@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: whitesmoke;
   min-height: 100%;
   min-width: 100%;
+  max-height: 100%;
   max-width: 100%;
-  max-height: 100%; }
+  background-color: whitesmoke; }
 
 .container-with-content {
   display: flex;
