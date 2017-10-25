@@ -1,26 +1,36 @@
+@import "_mixins";
+@import "_variables";
+
 .search{
-  min-width: 40%;
-  max-width: 40%;
-  min-height: 6vh;
-  max-height: 6vh;
+  @include flex($content: space-between, column);
+  // align-items: center;
+  // flex-direction: column;
+  @include size($maw: 40%, $miw: 40%, $mih: 6vh, $mah: 6vh%);
+  // min-width: 40%;
+  // max-width: 40%;
+  // min-height: 6vh;
+  // max-height: 6vh;
   background-color: green;
-  display: flex;
-  align-content: space-between;
+  // display: flex;
+  // align-content: space-between;
 }
 
 .input{
+  @include size($maw: 65%, $miw: 65%);
   min-width: 65%;
   max-width: 65%;
   background-color: gray;
 }
 
 .search-button{
-  min-width: 19%;
-  max-width: 19%;
+  @include size($miw: 19%, $maw: 19%);
+  // min-width: 19%;
+  // max-width: 19%;
   background-color: orange;
 }
 
 .icon{
-  max-width: 16%;
+  @include size($maw: 16%);
+  // max-width: 16%;
   background-color: orange;
 }
