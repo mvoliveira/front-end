@@ -8,10 +8,9 @@ app.use(sassMiddleware({
   dest: path.join(__dirname, 'public/css'),
   debug: true,
   outputStyle: 'compressed',
-  prefix:  '/prefix'  // Where prefix is at <link rel="stylesheets" href="prefix/style.css"/>
+  prefix:  '/prefix'
 }));
-// Note: you must place sass-middleware *before* `express.static` or else it will
-// not work.
+
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res) {

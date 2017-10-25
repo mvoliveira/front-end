@@ -1,5 +1,9 @@
-.carousel {
-  display: flex;
-  height: 40vh;
-  width: 60%;
-  background-color: pink; }
+.carousel
+{
+    display: flex;
+
+    width: 60%;
+    height: 40vh;
+
+    background-color: pink;
+}
