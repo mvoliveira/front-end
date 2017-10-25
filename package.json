@@ -21,7 +21,8 @@
   "dependencies": {
     "csscomb": "^4.2.0",
     "express": "^4.16.2",
-    "node-sass-middleware": "^0.11.0"
+    "node-sass-middleware": "^0.11.0",
+    "normalize.css": "^7.0.0"
   },
   "devDependencies": {
     "node-sass": "^4.5.3",
