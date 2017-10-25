@@ -13,7 +13,8 @@
   justify-content: space-around;
   background-color: orange;
   max-width: 60%;
-  min-width: 60%; }
+  min-width: 60%;
+  flex-wrap: wrap; }
 
 .container-products {
   display: flex;

@@ -3,7 +3,17 @@
   justify-content: space-between;
   background-color: purple;
   min-width: 100%;
-  min-height: 20vh; }
+  min-height: 20vh;
+  flex-wrap: wrap; }
+
+.header-flex-end {
+  display: flex;
+  justify-content: space-between;
+  background-color: purple;
+  min-width: 100%;
+  min-height: 2vh;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
 
 .logo {
   background-color: blue;
@@ -18,3 +28,15 @@
   min-height: 6vh;
   max-height: 6vh;
   max-width: 15vw; }
+
+.contact {
+  flex-direction: row;
+  display: flex;
+  width: 6vw;
+  text-align: right; }
+
+.icon {
+  width: 1vw; }
+
+.icon-description {
+  width: 5vw; }

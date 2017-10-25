@@ -4,3 +4,4 @@ node-sass --include-path scss scss/header.scss public/css/header.css
 node-sass --include-path scss scss/search.scss public/css/search.css
 node-sass --include-path scss scss/menu.scss public/css/menu.css
 node-sass --include-path scss scss/carousel.scss public/css/carousel.css
+node-sass --include-path scss scss/text.scss public/css/text.css
