@@ -3,7 +3,7 @@
   justify-content: space-between;
   background-color: purple;
   min-width: 100%;
-  min-height: 20vh;
+  min-height: 13vh;
   flex-wrap: wrap;
 }
 
@@ -20,10 +20,10 @@
 
 .logo{
   background-color: blue;
-  min-width: 12vw;
-  min-height: 8vh;
-  max-height: 8vh;
-  max-width: 12vw;
+  min-width: 10vw;
+  min-height: 10vh;
+  max-height: 10vh;
+  max-width: 11vw;
 }
 
 .my-Bag{
@@ -37,7 +37,7 @@
 .contact{
   flex-direction: row;
   display: flex;
-  width: 6vw;
+  width: auto;
   text-align: right;
 }
 
@@ -46,5 +46,5 @@
 }
 
 .icon-description{
- width: 5vw;
+ width: auto;
 }
