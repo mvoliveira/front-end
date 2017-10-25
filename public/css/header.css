@@ -1,39 +1,38 @@
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: purple;
-  min-width: 100%;
+  flex-wrap: wrap;
   min-height: 13vh;
-  flex-wrap: wrap; }
+  min-width: 100%; }
 
 .header-flex-end {
   display: flex;
-  justify-content: space-between;
-  background-color: purple;
-  min-width: 100%;
-  min-height: 2vh;
+  justify-content: flex-end;
   flex-wrap: wrap;
-  justify-content: flex-end; }
+  min-height: 2vh;
+  min-width: 100%;
+  min-width: 100%;
+  min-height: 2vh; }
 
 .logo {
-  background-color: blue;
-  min-width: 10vw;
+  background-color: gainsboro;
   min-height: 10vh;
+  min-width: 10vw;
   max-height: 10vh;
   max-width: 11vw; }
 
 .my-Bag {
   display: flex;
   flex-direction: row;
-  flex-flow: inherit;
   justify-content: space-evenly;
-  background-color: blue;
-  min-width: 12vw;
+  flex-wrap: wrap;
+  flex-flow: inherit;
   min-height: 10vh;
+  min-width: 12vw;
   max-height: 10vh;
-  max-width: 12vw; }
+  max-width: 12vw;
+  background-color: blue; }
   .my-Bag-icon {
-    background-color: aquamarine;
     background-color: pink;
     height: 8vh;
     width: 4vw; }
@@ -45,18 +44,17 @@
 
 .texto {
   display: flex;
+  height: 2vh;
   width: max-content;
-  background-color: cadetblue;
-  height: 2vh; }
+  background-color: cadetblue; }
 
 .contact {
-  flex-direction: row;
+  height: 1em;
+  width: auto;
   display: flex;
+  flex-direction: row;
   width: auto;
   text-align: right; }
-
-.icon {
-  width: 1vw; }
 
 .icon-description {
   width: auto; }

@@ -17,7 +17,7 @@
   @include size($maw: 60%, $miw: 60%);
   // display: flex;
   // justify-content: space-around;
-  background-color: orange;
+  // background-color: orange;
   // max-width: 60%;
   // min-width: 60%;
   // flex-wrap: wrap;
@@ -31,7 +31,7 @@
   // flex-direction: column;
   // height: 40vh;
   // width: 60%;
-  background-color: blue;
+  // background-color: blue;
   .products{
     @include flex($direction: row);
   }

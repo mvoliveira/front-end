@@ -1,75 +1,87 @@
+@import "_mixins";
+@import "_variables";
+
 .header {
-  display: flex;
-  justify-content: space-between;
-  background-color: purple;
-  min-width: 100%;
-  min-height: 13vh;
-  flex-wrap: wrap;
+  @include flex($justify: space-between, $wrap: wrap);
+@include size( $mih: 13vh, $miw: 100%);
+  // display: flex;
+  // justify-content: space-between;
+  // background-color: purple;
+  // min-width: 100%;
+  // min-height: 13vh;
+  // flex-wrap: wrap;
 }
 
 .header-flex-end {
-  display: flex;
-  justify-content: space-between;
-  background-color: purple;
+  @include flex($justify: flex-end, $wrap: wrap);
+  @include size( $mih: 2vh, $miw: 100%);
+  // display: flex;
+  // justify-content: space-between;
+  // background-color: purple;
   min-width: 100%;
   min-height: 2vh;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  // flex-wrap: wrap;
+  // justify-content: flex-end;
 }
 
 
 .logo{
-  background-color: blue;
-  min-width: 10vw;
-  min-height: 10vh;
-  max-height: 10vh;
-  max-width: 11vw;
+  background-color: $logo-color;
+  @include size( $mih: 10vh, $miw: 10vw, $mah: 10vh, $maw: 11vw);
+  // min-width: 10vw;
+  // min-height: 10vh;
+  // max-height: 10vh;
+  // max-width: 11vw;
 }
 
 .my-Bag{
-  display: flex;
-  flex-direction: row;
-  flex-flow: inherit;
-  justify-content: space-evenly;
+  @include flex($justify: space-evenly, $flow: inherit, $wrap: wrap, $direction: row);
+  @include size( $mih: 10vh, $miw: 12vw, $mah: 10vh, $maw: 12vw);
+  // display: flex;
+  // flex-direction: row;
+  // flex-flow: inherit;
+  // justify-content: space-evenly;
   background-color: blue;
-  min-width: 12vw;
-  min-height: 10vh;
-  max-height: 10vh;
-  max-width: 12vw;
+  // min-width: 12vw;
+  // min-height: 10vh;
+  // max-height: 10vh;
+  // max-width: 12vw;
   &-icon{
-    background-color: aquamarine;
+    // background-color: aquamarine;
     background-color: pink;
-    height: 8vh;
-    width: 4vw;
+    @include size( $h: 8vh, $w: 4vw);
+    // height: 8vh;
+    // width: 4vw;
   }
 }
 
 .texts{
-  display: flex;
-  flex-direction:column;
-  justify-content: space-evenly;
-
-
+  @include flex($justify: space-evenly, $direction: column);
+  // display: flex;
+  // flex-direction:column;
+  // justify-content: space-evenly;
 }
 
 .texto{
-  display: flex;
-  width: max-content;
+  @include flex();
+  @include size( $h: 2vh, $w: max-content);
+  // display: flex;
+  // width: max-content;
   background-color: cadetblue;
-  height: 2vh;
+  // height: 2vh;
 
 }
 .contact{
-  flex-direction: row;
-  display: flex;
+  @include size($h: 1em, $w: auto);
+  // height: 1em;
+  @include flex($direction: row);
+  // flex-direction: row;
+  // display: flex;
   width: auto;
   text-align: right;
 }
 
-.icon{
-  width: 1vw;
-}
-
 .icon-description{
-  width: auto;
+  @include size($w: auto);
+  // width: auto;
 }
