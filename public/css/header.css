@@ -23,11 +23,19 @@
   max-width: 11vw; }
 
 .my-Bag {
+  display: flex;
+  flex-direction: row;
   background-color: blue;
   min-width: 15vw;
-  min-height: 6vh;
-  max-height: 6vh;
+  min-height: 10vh;
+  max-height: 10vh;
   max-width: 15vw; }
+  .my-Bag-icon {
+    background-color: pink;
+    min-width: 4vw;
+    min-height: 7vh;
+    max-height: 7vh;
+    max-width: 4vw; }
 
 .contact {
   flex-direction: row;
