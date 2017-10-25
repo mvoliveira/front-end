@@ -27,23 +27,38 @@
 }
 
 .my-Bag{
+  display: flex;
+  flex-direction: row;
+  flex-flow: inherit;
+  justify-content: space-evenly;
   background-color: blue;
-  min-width: 15vw;
+  min-width: 12vw;
   min-height: 10vh;
   max-height: 10vh;
-  max-width: 15vw;
+  max-width: 12vw;
   &-icon{
+    background-color: aquamarine;
     background-color: pink;
-    min-width: 4vw;
-    min-height: 7vh;
-    max-height: 7vh;
-    max-width: 4vw;
-
+    height: 8vh;
+    width: 4vw;
   }
 }
 
+.texts{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
 
 
+}
+
+.texto{
+  display: flex;
+  width: max-content;
+  background-color: cadetblue;
+  height: 2vh;
+
+}
 .contact{
   flex-direction: row;
   display: flex;
@@ -56,5 +71,5 @@
 }
 
 .icon-description{
- width: auto;
+  width: auto;
 }

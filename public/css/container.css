@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: red;
+  background-color: gainsboro;
   min-height: 100vh;
   min-width: 100vw;
   max-width: 100%;
