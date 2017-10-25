@@ -1,94 +1,62 @@
-.header
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: purple;
+  min-width: 100%;
+  min-height: 13vh;
+  flex-wrap: wrap; }
 
-    min-width: 100%;
-    min-height: 13vh;
+.header-flex-end {
+  display: flex;
+  justify-content: space-between;
+  background-color: purple;
+  min-width: 100%;
+  min-height: 2vh;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
 
-    background-color: purple;
-}
+.logo {
+  background-color: blue;
+  min-width: 10vw;
+  min-height: 10vh;
+  max-height: 10vh;
+  max-width: 11vw; }
 
-.header-flex-end
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-content: flex-end;
-
-    min-width: 100%;
-    min-height: 2vh;
-
-    background-color: purple;
-}
-
-.logo
-{
-    min-width: 10vw;
-    max-width: 11vw;
-    min-height: 10vh;
-    max-height: 10vh;
-
-    background-color: blue;
-}
-
-.my-Bag
-{
-    display: flex;
-    flex-flow: inherit;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-    min-width: 12vw;
-    max-width: 12vw;
-    min-height: 10vh;
-    max-height: 10vh;
-
-    background-color: blue;
-}
-.my-Bag-icon
-{
-    width: 4vw;
-    height: 8vh;
-
+.my-Bag {
+  display: flex;
+  flex-direction: row;
+  flex-flow: inherit;
+  justify-content: space-evenly;
+  background-color: blue;
+  min-width: 12vw;
+  min-height: 10vh;
+  max-height: 10vh;
+  max-width: 12vw; }
+  .my-Bag-icon {
     background-color: aquamarine;
     background-color: pink;
-}
+    height: 8vh;
+    width: 4vw; }
 
-.texts
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
 
-.texto
-{
-    display: flex;
+.texto {
+  display: flex;
+  width: max-content;
+  background-color: cadetblue;
+  height: 2vh; }
 
-    width: max-content;
-    height: 2vh;
+.contact {
+  flex-direction: row;
+  display: flex;
+  width: auto;
+  text-align: right; }
 
-    background-color: cadetblue;
-}
+.icon {
+  width: 1vw; }
 
-.contact
-{
-    display: flex;
-    flex-direction: row;
-
-    width: auto;
-
-    text-align: right;
-}
-
-.icon
-{
-    width: 1vw;
-}
-
-.icon-description
-{
-    width: auto;
-}
+.icon-description {
+  width: auto; }
