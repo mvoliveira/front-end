@@ -1,22 +1,29 @@
 .search {
-  min-width: 40%;
-  max-width: 40%;
-  min-height: 6vh;
-  max-height: 6vh;
-  background-color: green;
   display: flex;
-  align-content: space-between; }
+  align-content: space-between;
+  min-height: 6vh;
+  min-width: 40%;
+  max-height: 6vh;
+  max-width: 40%;
+  background-color: green; }
 
 .input {
   min-width: 65%;
   max-width: 65%;
-  background-color: gray; }
+  min-width: 65%;
+  max-width: 65%;
+  background-color: whitesmoke; }
 
 .search-button {
   min-width: 19%;
   max-width: 19%;
-  background-color: orange; }
+  background-color: black;
+  color: white; }
+
+.icon-search {
+  max-width: 16%;
+  background-color: whitesmoke; }
 
 .icon {
-  max-width: 16%;
-  background-color: orange; }
+  width: 1vw;
+  background-color: whitesmoke; }

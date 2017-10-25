@@ -2,10 +2,10 @@
 @import "_variables";
 
 .search{
-  @include flex($content: space-between, column);
+  @include flex($content: space-between);
   // align-items: center;
   // flex-direction: column;
-  @include size($maw: 40%, $miw: 40%, $mih: 6vh, $mah: 6vh%);
+  @include size($maw:40%, $miw:40%, $mih:6vh, $mah:6vh);
   // min-width: 40%;
   // max-width: 40%;
   // min-height: 6vh;
@@ -16,21 +16,31 @@
 }
 
 .input{
+
   @include size($maw: 65%, $miw: 65%);
   min-width: 65%;
   max-width: 65%;
-  background-color: gray;
+  background-color: $body-color;
 }
 
 .search-button{
   @include size($miw: 19%, $maw: 19%);
   // min-width: 19%;
   // max-width: 19%;
-  background-color: orange;
+  background-color: $black-color;
+  color: $white-color;
+  // background-color: orange;
 }
 
-.icon{
+.icon-search{
   @include size($maw: 16%);
   // max-width: 16%;
-  background-color: orange;
+  background-color: $body-color;
+  // color: gray;
+}
+.icon{
+  @include size($w:1vw);
+  // max-width: 16%;
+  background-color: $body-color;
+  // color: gray;
 }
