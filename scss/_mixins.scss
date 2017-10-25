@@ -20,23 +20,24 @@
   }
 }
 
-@mixin size($height: null, $width: null, $min-height: null, $min-width: null
-, $max-height: null, $max-height: null) {
-  @if($height) {
-    height: $height;
+@mixin size($h: null, $w: null, $mih: null, $miw: null
+, $mah: null, $maw: null) {
+  @if($h) {
+    height: $h;
   }
-  @if($width) {
-    width: $width;
+  @if($w) {
+    width: $w;
   }
-  @if($min-height) {
-    min-height: $min-height;
+  @if($mih) {
+    min-height: $mih;
   }
-  @if($min-width) {
-    min-width: $min-width;
+  @if($miw) {
+    min-width: $miw;
   }
-}
-@mixin blackGradient($alpha) {
-  @if($alpha) {
-    background-color: rgba(0,0,0, $alpha);
+  @if($mah) {
+    max-height: $mih;
+  }
+  @if($maw) {
+    max-width: $maw;
   }
 }
