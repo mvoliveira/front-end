@@ -5,31 +5,20 @@
 .menu{
   @include flex($justify: center);
   @include size($h: 5vh, $w: 100%);
-  // display: flex;
-  // width: 100%;
-  // height: 5vh;
   background-color: black;
-  // justify-content: center;
 }
 
 .menuiten{
-  // background-color:gray;
   color: white;
-  // text-transform: uppercase;
   list-style: none;
   display: inline-block;
   align-self: center;
 }
 
-/*drop down*/
 .dropdown-content-colunms{
   @include flex();
 }
 .dropbtn {
-    /*background-color: #4CAF50;*/
-    /*color: white;*/
-    /*padding: 16px;*/
-    /*font-size: 16px;*/
     border: none;
     cursor: pointer;
 }

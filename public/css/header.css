@@ -10,9 +10,7 @@
   justify-content: flex-end;
   flex-wrap: wrap;
   min-height: 2vh;
-  min-width: 100%;
-  min-width: 100%;
-  min-height: 2vh; }
+  min-width: 100%; }
 
 .logo {
   background-color: gainsboro;

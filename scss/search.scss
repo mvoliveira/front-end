@@ -3,20 +3,11 @@
 
 .search{
   @include flex($content: space-between);
-  // align-items: center;
-  // flex-direction: column;
   @include size($maw:40%, $miw:40%, $mih:6vh, $mah:6vh);
-  // min-width: 40%;
-  // max-width: 40%;
-  // min-height: 6vh;
-  // max-height: 6vh;
   background-color: green;
-  // display: flex;
-  // align-content: space-between;
 }
 
 .input{
-
   @include size($maw: 65%, $miw: 65%);
   min-width: 65%;
   max-width: 65%;
@@ -25,22 +16,15 @@
 
 .search-button{
   @include size($miw: 19%, $maw: 19%);
-  // min-width: 19%;
-  // max-width: 19%;
   background-color: $black-color;
   color: $white-color;
-  // background-color: orange;
 }
 
 .icon-search{
   @include size($maw: 16%);
-  // max-width: 16%;
   background-color: $body-color;
-  // color: gray;
 }
 .icon{
   @include size($w:1vw);
-  // max-width: 16%;
   background-color: $body-color;
-  // color: gray;
 }
