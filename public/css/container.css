@@ -14,12 +14,3 @@
   flex-wrap: wrap;
   min-width: 60%;
   max-width: 60%; }
-
-.container-products {
-  display: flex;
-  flex-direction: column;
-  height: 40vh;
-  width: 60%; }
-  .container-products .products {
-    display: flex;
-    flex-direction: row; }

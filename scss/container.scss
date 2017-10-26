@@ -11,12 +11,3 @@
   @include flex($justify: space-around,$wrap: wrap);
   @include size($maw: 60%, $miw: 60%);
 }
-
-
-.container-products{
-  @include flex($direction: column);
-  @include size($h: 40vh,$w: 60%);
-  .products{
-    @include flex($direction: row);
-  }
-}

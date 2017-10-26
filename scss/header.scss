@@ -1,6 +1,5 @@
 @import "_mixins";
 @import "_variables";
-@import "_mediaQuerys";
 
 .header {
   @include flex($justify: space-between, $wrap: wrap);

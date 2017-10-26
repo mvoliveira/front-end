@@ -1,9 +1,0 @@
-@import "_mixins";
-@import "_variables";
-
-
-.carousel{
-  @include flex();
-  @include size( $h: 40vh, $w: 60%);
-  background-color: pink;
-}
