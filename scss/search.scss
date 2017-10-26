@@ -2,29 +2,24 @@
 @import "_variables";
 
 .search{
+  border:solid, red;
   @include flex($content: space-between);
   @include size($maw:40%, $miw:40%, $mih:6vh, $mah:6vh);
   background-color: green;
+  &-button{
+    @include size($miw: 19%, $maw: 19%);
+    background-color: $black-color;
+    color: $white-color;
+  }
 }
-
-.input{
-  @include size($maw: 65%, $miw: 65%);
-  min-width: 65%;
-  max-width: 65%;
-  background-color: $body-color;
-}
-
-.search-button{
-  @include size($miw: 19%, $maw: 19%);
-  background-color: $black-color;
-  color: $white-color;
-}
-
 .icon-search{
   @include size($maw: 16%);
   background-color: $body-color;
 }
-.icon{
-  @include size($w:1vw);
+.input{
+  border: none;
+  @include size($maw: 65%, $miw: 65%);
+  min-width: 65%;
+  max-width: 65%;
   background-color: $body-color;
 }

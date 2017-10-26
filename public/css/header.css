@@ -53,5 +53,9 @@
   flex-direction: row;
   text-align: right; }
 
+.icon {
+  width: 1vw;
+  background-color: whitesmoke; }
+
 .icon-description {
   width: auto; }

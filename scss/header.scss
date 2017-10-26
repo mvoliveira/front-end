@@ -1,16 +1,16 @@
 @import "_mixins";
 @import "_variables";
+@import "_mediaQuerys";
 
 .header {
   @include flex($justify: space-between, $wrap: wrap);
-@include size( $mih: 13vh, $miw: 100%);
+  @include size( $mih: 13vh, $miw: 100%);
 }
 
 .header-flex-end {
   @include flex($justify: flex-end, $wrap: wrap);
   @include size( $mih: 2vh, $miw: 100%);
 }
-
 
 .logo{
   background-color: $logo-color;
@@ -40,6 +40,10 @@
   @include size($h: 1em, $w: auto);
   @include flex($direction: row);
   text-align: right;
+}
+.icon{
+  @include size($w:1vw);
+  background-color: $body-color;
 }
 
 .icon-description{
